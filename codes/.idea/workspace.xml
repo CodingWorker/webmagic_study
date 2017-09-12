@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="212176e6-7e9e-4f2a-8000-d196f1199334" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Page.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Page.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Request.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/SpiderListener.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/SpiderListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/AbstractDownloader.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/AbstractDownloader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/Downloader.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/Downloader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientGenerator.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientRequestContext.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientRequestContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpUriRequestConverter.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpUriRequestConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/model/HttpRequestBody.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/model/HttpRequestBody.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/CollectorPipeline.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/CollectorPipeline.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ConsolePipeline.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ConsolePipeline.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/Pipeline.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/Pipeline.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/PageProcessor.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/PageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/SimplePageProcessor.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/SimplePageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/selector/Html.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/selector/Html.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java" afterPath="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java" />
-    </list>
-    <ignored path="codes.iws" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" id="a18abc14-232b-440e-ad1d-adde404e18a8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,135 +11,95 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="codes" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/webmagic/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="10" column="129" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="129" />
+            <state relative-caret-position="90">
+              <caret line="10" column="129" lean-forward="false" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/Spider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="315" column="29" lean-forward="true" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2496#2506#0" expanded="true" />
+                <element signature="e#8878#9478#0" expanded="true" />
+                <element signature="e#9477#9478#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-739">
-              <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuplicateRemover.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashSetDuplicateRemover.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CountableThreadPool.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/thread/CountableThreadPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1474">
+              <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <folding>
+                <element signature="e#2034#2505#0" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-531">
+              <caret line="195" column="22" lean-forward="false" selection-start-line="195" selection-start-column="22" selection-end-line="195" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4097#4098#0" expanded="false" />
+                <element signature="e#4145#4146#0" expanded="false" />
+                <element signature="e#5740#5741#0" expanded="false" />
+                <element signature="e#5786#5787#0" expanded="false" />
+                <element signature="e#6761#6762#0" expanded="false" />
+                <element signature="e#6805#6806#0" expanded="false" />
+                <element signature="e#7968#7969#0" expanded="false" />
+                <element signature="e#8016#8017#0" expanded="false" />
+                <element signature="e#18028#18029#0" expanded="false" />
+                <element signature="e#18085#18086#0" expanded="false" />
+                <element signature="e#19582#19583#0" expanded="false" />
+                <element signature="e#19608#19609#0" expanded="false" />
+                <element signature="e#20905#20906#0" expanded="false" />
+                <element signature="e#20944#20945#0" expanded="false" />
+                <element signature="e#21364#21365#0" expanded="false" />
+                <element signature="e#21395#21396#0" expanded="false" />
+                <element signature="e#21566#21567#0" expanded="false" />
+                <element signature="e#21604#21605#0" expanded="false" />
+                <element signature="e#21775#21776#0" expanded="false" />
+                <element signature="e#21826#21827#0" expanded="false" />
+                <element signature="e#22060#22061#0" expanded="false" />
+                <element signature="e#22096#22097#0" expanded="false" />
+                <element signature="e#23756#23757#0" expanded="false" />
+                <element signature="e#23783#23784#0" expanded="false" />
+                <element signature="e#23839#23840#0" expanded="false" />
+                <element signature="e#23877#23878#0" expanded="false" />
+                <element signature="e#24064#24065#0" expanded="false" />
+                <element signature="e#24096#24097#0" expanded="false" />
+                <element signature="e#24135#24136#0" expanded="false" />
+                <element signature="e#24167#24168#0" expanded="false" />
+                <element signature="e#24345#24346#0" expanded="false" />
+                <element signature="e#24397#24398#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountableThreadPool.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#1492#1493#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-                <element signature="e#2230#2701#0" expanded="true" />
-                <element signature="e#2700#2701#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuplicateRemovedScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-              <folding>
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PriorityScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-              <folding>
-                <element signature="e#952#1147#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1268#1463#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueueScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-              <folding>
-                <element signature="e#620#629#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonitorableScheduler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-99">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -181,15 +107,10 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sourcecodes/webmagic" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>run(</find>
+    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -199,39 +120,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/webmagic/ConsolePipeine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/webmagic/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/webmagic/GithubRepoPageProcessor.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/selector/Html.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Page.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Request.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/SpiderListener.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/SimplePageProcessor.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/PageProcessor.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/Downloader.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/AbstractDownloader.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientGenerator.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientRequestContext.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/model/HttpRequestBody.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpUriRequestConverter.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/CollectorPipeline.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ConsolePipeline.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/Pipeline.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java" />
-        <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java" />
         <option value="$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java" />
       </list>
     </option>
@@ -243,29 +132,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1375" />
+    <option name="y" value="-8" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,18 +159,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -303,7 +176,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -317,7 +190,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -335,7 +208,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -361,7 +234,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -379,7 +252,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -401,7 +274,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -427,7 +300,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -457,7 +330,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="codes" />
+              <option name="myItemId" value="webmagicdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -489,14 +362,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="webmagic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmagicdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sourcecodes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmagic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmagic-core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="us" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webmagic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,10 +434,20 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sourcecodes" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -527,7 +466,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="WebMagicDemo" />
+      <module name="webmagicdemo" />
       <envs />
       <method />
     </configuration>
@@ -535,9 +474,10 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -547,7 +487,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -555,7 +495,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -572,7 +516,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -580,7 +524,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -607,7 +555,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="arquillianRunConfiguration">
@@ -758,8 +706,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowserUrl" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -774,27 +721,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -825,6 +751,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -837,7 +776,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="codes" />
+      <module name="webmagicdemo" />
       <envs />
       <method />
     </configuration>
@@ -851,28 +790,6 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -917,45 +834,11 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -981,66 +864,68 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="212176e6-7e9e-4f2a-8000-d196f1199334" name="Default" comment="" />
-      <created>1504223210754</created>
+      <changelist id="a18abc14-232b-440e-ad1d-adde404e18a8" name="Default" comment="" />
+      <created>1505173114448</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1504223210754</updated>
-      <workItem from="1504223216029" duration="3321000" />
-      <workItem from="1504363088973" duration="2771000" />
-      <workItem from="1504407485546" duration="775000" />
-      <workItem from="1504408283662" duration="2294000" />
-      <workItem from="1504922722897" duration="18404000" />
+      <updated>1505173114448</updated>
+      <workItem from="1505173117311" duration="1423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27565000" />
+    <option name="totallyTimeSpent" value="1423000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1375" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21673004" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39044482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22509506" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" x="746" y="95" width="379" height="606" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32927758" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29007635" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27054796" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39868203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/webmagic/Main.java</url>
+          <line>10</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -1050,411 +935,140 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/pipeline/Pipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/webmagic/GithubRepoPageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="95">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/pipeline/Pipeline.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar!/org/slf4j/LoggerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/webmagic/ConsolePipeine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3.jar!/us/codecraft/webmagic/Spider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java" />
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-extension/src/main/java/us/codecraft/webmagic/configurable/ExtractRule.java" />
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-extension/src/main/java/us/codecraft/webmagic/example/OschinaBlog.java" />
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-extension/src/main/java/us/codecraft/webmagic/utils/ExtractorUtils.java" />
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/package.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/webmagic/GithubRepoPageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/java/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4410">
-          <caret line="198" column="22" selection-start-line="198" selection-start-column="22" selection-end-line="198" selection-end-column="22" />
+        <state relative-caret-position="86">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
           <folding>
-            <element signature="e#5288#5289#0" expanded="false" />
-            <element signature="e#5359#5360#0" expanded="false" />
+            <element signature="e#8385#8386#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/parser/Parser.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        <state relative-caret-position="95">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.10.3/jsoup-1.10.3.jar!/org/jsoup/Jsoup.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="125">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#887#903#0" expanded="true" />
+            <element signature="e#961#977#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/selector/Html.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/scheduler/QueueScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/utils/UrlUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3320">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/SpiderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Site.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="e#446#462#0" expanded="true" />
-            <element signature="e#545#574#0" expanded="true" />
-            <element signature="e#972#981#0" expanded="true" />
-            <element signature="e#1118#1134#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/PageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/example/BaiduBaikePageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/Downloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/AbstractDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientDownloader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="153" column="69" selection-start-line="153" selection-start-column="69" selection-end-line="153" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/model/HttpRequestBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="83" column="99" selection-start-line="83" selection-start-column="99" selection-end-line="83" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="164" column="21" selection-start-line="164" selection-start-column="21" selection-end-line="164" selection-end-column="21" />
-          <folding>
-            <element signature="e#4088#4089#0" expanded="true" />
-            <element signature="e#4122#4123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/processor/SimplePageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpUriRequestConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/CustomRedirectStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientRequestContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/HttpClientGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="134" column="25" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="25" />
-          <folding>
-            <element signature="e#4000#4400#0" expanded="true" />
-            <element signature="e#4399#4400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/Pipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/CollectorPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ConsolePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/ResultItemsCollectorPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/pipeline/FilePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/QueueScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+        <state relative-caret-position="95">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#620#629#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/Scheduler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/pipeline/ConsolePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/MonitorableScheduler.java">
+    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/PriorityScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        <state relative-caret-position="-531">
+          <caret line="195" column="22" lean-forward="false" selection-start-line="195" selection-start-column="22" selection-end-line="195" selection-end-column="22" />
           <folding>
-            <element signature="e#952#1147#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1268#1463#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/DuplicateRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/DuplicateRemovedScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/scheduler/component/HashSetDuplicateRemover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#1492#1493#0" expanded="true" />
-            <element signature="e#1532#1533#0" expanded="true" />
-            <element signature="e#2230#2701#0" expanded="true" />
-            <element signature="e#2700#2701#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4097#4098#0" expanded="false" />
+            <element signature="e#4145#4146#0" expanded="false" />
+            <element signature="e#5740#5741#0" expanded="false" />
+            <element signature="e#5786#5787#0" expanded="false" />
+            <element signature="e#6761#6762#0" expanded="false" />
+            <element signature="e#6805#6806#0" expanded="false" />
+            <element signature="e#7968#7969#0" expanded="false" />
+            <element signature="e#8016#8017#0" expanded="false" />
+            <element signature="e#18028#18029#0" expanded="false" />
+            <element signature="e#18085#18086#0" expanded="false" />
+            <element signature="e#19582#19583#0" expanded="false" />
+            <element signature="e#19608#19609#0" expanded="false" />
+            <element signature="e#20905#20906#0" expanded="false" />
+            <element signature="e#20944#20945#0" expanded="false" />
+            <element signature="e#21364#21365#0" expanded="false" />
+            <element signature="e#21395#21396#0" expanded="false" />
+            <element signature="e#21566#21567#0" expanded="false" />
+            <element signature="e#21604#21605#0" expanded="false" />
+            <element signature="e#21775#21776#0" expanded="false" />
+            <element signature="e#21826#21827#0" expanded="false" />
+            <element signature="e#22060#22061#0" expanded="false" />
+            <element signature="e#22096#22097#0" expanded="false" />
+            <element signature="e#23756#23757#0" expanded="false" />
+            <element signature="e#23783#23784#0" expanded="false" />
+            <element signature="e#23839#23840#0" expanded="false" />
+            <element signature="e#23877#23878#0" expanded="false" />
+            <element signature="e#24064#24065#0" expanded="false" />
+            <element signature="e#24096#24097#0" expanded="false" />
+            <element signature="e#24135#24136#0" expanded="false" />
+            <element signature="e#24167#24168#0" expanded="false" />
+            <element signature="e#24345#24346#0" expanded="false" />
+            <element signature="e#24397#24398#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/webmagic/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="10" column="129" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="129" />
+        <state relative-caret-position="90">
+          <caret line="10" column="129" lean-forward="false" selection-start-line="10" selection-start-column="129" selection-end-line="10" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="315" column="29" lean-forward="true" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2496#2506#0" expanded="true" />
+            <element signature="e#8878#9478#0" expanded="true" />
+            <element signature="e#9477#9478#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/Spider.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/us/codecraft/webmagic-core/0.7.3/webmagic-core-0.7.3-sources.jar!/us/codecraft/webmagic/thread/CountableThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="284" column="19" selection-start-line="284" selection-start-column="19" selection-end-line="284" selection-end-column="19" />
+        <state relative-caret-position="1474">
+          <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding>
+            <element signature="e#2034#2505#0" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/thread/CountableThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="87" column="70" lean-forward="false" selection-start-line="87" selection-start-column="70" selection-end-line="87" selection-end-column="70" />
           <folding />
         </state>
       </provider>
@@ -1488,6 +1102,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>groovy-2.4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1511,7 +1126,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>WebMagicDemo</last-edited>
+          <last-edited>webmagicdemo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

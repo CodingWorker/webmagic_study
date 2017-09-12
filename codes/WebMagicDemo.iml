@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -8,23 +8,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-core/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-extension/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-extension/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-core/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-samples/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-samples/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-core/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-saxon/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-saxon/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-saxon/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-saxon/src/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-scripts/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-scripts/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-scripts" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-selenium/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-selenium/src/main" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sourcecodes/webmagic/webmagic-selenium/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
