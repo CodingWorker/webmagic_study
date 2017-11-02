@@ -9,6 +9,8 @@ import us.codecraft.webmagic.processor.SimplePageProcessor;
 import us.codecraft.webmagic.scheduler.Scheduler;
 
 import java.util.Random;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -41,6 +43,22 @@ public class SpiderTest {
             testRound();
         }
     }
+
+    //测试：executeService shutdown后还能启动？不能
+    //测试：executeService没有启动isShutdown返回值false
+    @Test
+    public void testExecuteService(){
+        ExecutorService executorService= Executors.newFixedThreadPool(2);
+        System.out.println(executorService.isShutdown());//false
+        executorService.shutdown();
+        executorService.execute(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println(123);
+            }
+        });
+    }
+
 
     private void testRound() {
         Spider spider = Spider.create(new PageProcessor() {

@@ -18,7 +18,7 @@ public abstract class DuplicateRemovedScheduler implements Scheduler {
 
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
-    private DuplicateRemover duplicatedRemover = new HashSetDuplicateRemover();
+    private DuplicateRemover duplicatedRemover = new HashSetDuplicateRemover();//使用了一个set来去重
 
     public DuplicateRemover getDuplicateRemover() {
         return duplicatedRemover;
@@ -32,7 +32,10 @@ public abstract class DuplicateRemovedScheduler implements Scheduler {
     @Override
     public void push(Request request, Task task) {
         logger.trace("get a candidate url {}", request.getUrl());
-        if (shouldReserved(request) || noNeedToRemoveDuplicate(request) || !duplicatedRemover.isDuplicate(request, task)) {
+        if (shouldReserved(request) || noNeedToRemoveDuplicate(request) || !duplicatedRemover.isDuplicate(request, task)) {//duplicatedRemover.isDuplicate(request, task)方法
+            // 会将request添加到duplicatedRemover的内部set数据结构中，所以pushWhenNoDuplicate可以不处理，这是一个糟糕的设计，
+            // 去重判断就不要带有其他的操作,在其他的方法中在添加；可以用map来去重，因为hashset底层也是hashmap
+            //方法shouldReserved检测是否是重试的url，是的话直接加入，因为不会重复的
             logger.debug("push to queue {}", request.getUrl());
             pushWhenNoDuplicate(request, task);
         }

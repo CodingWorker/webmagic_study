@@ -11,7 +11,7 @@ import java.util.*;
  * @see us.codecraft.webmagic.processor.PageProcessor
  * @since 0.1.0
  */
-public class Site {
+public class Site {//抓取站点信息管理
 
     private String domain;
 

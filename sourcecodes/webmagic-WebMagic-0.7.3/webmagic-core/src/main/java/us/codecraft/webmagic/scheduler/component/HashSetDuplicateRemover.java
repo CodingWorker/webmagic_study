@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @author code4crafer@gmail.com
  */
-public class HashSetDuplicateRemover implements DuplicateRemover {
+public class HashSetDuplicateRemover implements DuplicateRemover {//hashset以便于去重
 
     private Set<String> urls = Collections.newSetFromMap(new ConcurrentHashMap<String, Boolean>());
 

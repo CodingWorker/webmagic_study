@@ -21,8 +21,10 @@ public class PriorityScheduler extends DuplicateRemovedScheduler implements Moni
 
     public static final int INITIAL_CAPACITY = 5;
 
-    private BlockingQueue<Request> noPriorityQueue = new LinkedBlockingQueue<Request>();
+    //可能是这么考虑的：有些需要优先，有些不需要顺序，有些需要在后面
+    private BlockingQueue<Request> noPriorityQueue = new LinkedBlockingQueue<Request>();//无优先级队列
 
+    //正优先级
     private PriorityBlockingQueue<Request> priorityQueuePlus = new PriorityBlockingQueue<Request>(INITIAL_CAPACITY, new Comparator<Request>() {
         @Override
         public int compare(Request o1, Request o2) {
@@ -30,6 +32,7 @@ public class PriorityScheduler extends DuplicateRemovedScheduler implements Moni
         }
     });
 
+    //负优先级
     private PriorityBlockingQueue<Request> priorityQueueMinus = new PriorityBlockingQueue<Request>(INITIAL_CAPACITY, new Comparator<Request>() {
         @Override
         public int compare(Request o1, Request o2) {
@@ -48,6 +51,7 @@ public class PriorityScheduler extends DuplicateRemovedScheduler implements Moni
         }
     }
 
+    //同步方法出队，task也没有用到
     @Override
     public synchronized Request poll(Task task) {
         Request poll = priorityQueuePlus.poll();
@@ -61,6 +65,7 @@ public class PriorityScheduler extends DuplicateRemovedScheduler implements Moni
         return priorityQueueMinus.poll();
     }
 
+    //这个方法获取的这是没有权重的，应该是个bug
     @Override
     public int getLeftRequestsCount(Task task) {
         return noPriorityQueue.size();

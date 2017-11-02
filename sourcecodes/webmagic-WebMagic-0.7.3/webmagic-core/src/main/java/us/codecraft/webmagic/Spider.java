@@ -60,11 +60,11 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Spider implements Runnable, Task {
 
-    protected Downloader downloader;
+    protected Downloader downloader;//下载器
 
     protected List<Pipeline> pipelines = new ArrayList<Pipeline>();
 
-    protected PageProcessor pageProcessor;
+    protected PageProcessor pageProcessor;//页面解析器
 
     protected List<Request> startRequests;
 
@@ -72,17 +72,17 @@ public class Spider implements Runnable, Task {
 
     protected String uuid;
 
-    protected Scheduler scheduler = new QueueScheduler();
+    protected Scheduler scheduler = new QueueScheduler();//schedule核心就是一个队列
 
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
     protected CountableThreadPool threadPool;
 
-    protected ExecutorService executorService;
+    protected ExecutorService executorService;//自定义线程，用来初始化线程池，否则使用默认的固定数量线程池
 
-    protected int threadNum = 1;
+    protected int threadNum = 1;//可以同时运行的线程数量
 
-    protected AtomicInteger stat = new AtomicInteger(STAT_INIT);
+    protected AtomicInteger stat = new AtomicInteger(STAT_INIT);//这个应该是status而非stat
 
     protected boolean exitWhenComplete = true;
 
@@ -92,7 +92,7 @@ public class Spider implements Runnable, Task {
 
     protected final static int STAT_STOPPED = 2;
 
-    protected boolean spawnUrl = true;
+    protected boolean spawnUrl = true;//是否延展，如果为true则表示会抓取从此网站抽取的新的url，否则只会抓取种子url
 
     protected boolean destroyWhenExit = true;
 
@@ -139,6 +139,7 @@ public class Spider implements Runnable, Task {
     public Spider startUrls(List<String> startUrls) {
         checkIfRunning();
         this.startRequests = UrlUtils.convertToRequests(startUrls);
+        //为了使用链式，返回了this
         return this;
     }
 
@@ -191,7 +192,7 @@ public class Spider implements Runnable, Task {
         checkIfRunning();
         Scheduler oldScheduler = this.scheduler;
         this.scheduler = scheduler;
-        if (oldScheduler != null) {
+        if (oldScheduler != null) {//将旧的url添加到新的scheduler
             Request request;
             while ((request = oldScheduler.poll(this)) != null) {
                 this.scheduler.push(request, this);
@@ -246,7 +247,7 @@ public class Spider implements Runnable, Task {
      * @return this
      */
     public Spider clearPipeline() {
-        pipelines = new ArrayList<Pipeline>();
+        pipelines = new ArrayList<Pipeline>();//保证pipeline一直非null,需要时直接使用
         return this;
     }
 
@@ -275,21 +276,25 @@ public class Spider implements Runnable, Task {
         return this;
     }
 
-    protected void initComponent() {
+    protected void initComponent() {//初始化相关组件，downloader，pageprocessor,pipeline,scheduler
         if (downloader == null) {
             this.downloader = new HttpClientDownloader();
         }
+
+        downloader.setThread(threadNum);
+
         if (pipelines.isEmpty()) {
             pipelines.add(new ConsolePipeline());
         }
-        downloader.setThread(threadNum);
+
         if (threadPool == null || threadPool.isShutdown()) {
-            if (executorService != null && !executorService.isShutdown()) {
+            if (executorService != null && !executorService.isShutdown()) {//保证executorService是一个新的线程池
                 threadPool = new CountableThreadPool(threadNum, executorService);
-            } else {
+            } else {//否则的话使用默认的固定数量线程的线程池
                 threadPool = new CountableThreadPool(threadNum);
             }
         }
+
         if (startRequests != null) {
             for (Request request : startRequests) {
                 addRequest(request);
@@ -311,16 +316,16 @@ public class Spider implements Runnable, Task {
                     break;
                 }
                 // wait until new url added
-                waitNewUrl();
+                waitNewUrl();//如果结束了就会返回并结束整个spider，否则才会真的等待，当前线程等待
             } else {
                 threadPool.execute(new Runnable() {
                     @Override
                     public void run() {
                         try {
                             processRequest(request);
-                            onSuccess(request);
+                            onSuccess(request);//监听器对这个request进一步处理，这里的成功指的是处理没有异常就位成功
                         } catch (Exception e) {
-                            onError(request);
+                            onError(request);//request处理异常即为失败
                             logger.error("process request " + request + " error", e);
                         } finally {
                             pageCount.incrementAndGet();
@@ -338,7 +343,7 @@ public class Spider implements Runnable, Task {
         logger.info("Spider {} closed! {} pages downloaded.", getUUID(), pageCount.get());
     }
 
-    protected void onError(Request request) {
+    protected void onError(Request request) {//使用监听器对错误进行处理，循环所有的监听器；类似组合模式下树的非叶子节点
         if (CollectionUtils.isNotEmpty(spiderListeners)) {
             for (SpiderListener spiderListener : spiderListeners) {
                 spiderListener.onError(request);
@@ -346,7 +351,7 @@ public class Spider implements Runnable, Task {
         }
     }
 
-    protected void onSuccess(Request request) {
+    protected void onSuccess(Request request) {//使用监听器对成功进行处理，循环所有的监听器，类似组合模式下树的非叶子节点
         if (CollectionUtils.isNotEmpty(spiderListeners)) {
             for (SpiderListener spiderListener : spiderListeners) {
                 spiderListener.onSuccess(request);
@@ -366,6 +371,7 @@ public class Spider implements Runnable, Task {
         }
     }
 
+    //关闭资源，关闭能够关闭的
     public void close() {
         destroyEach(downloader);
         destroyEach(pageProcessor);
@@ -400,7 +406,7 @@ public class Spider implements Runnable, Task {
         }
     }
 
-    private void processRequest(Request request) {
+    private void processRequest(Request request) {//处理request，无非就是下载页面，然后交给下一步流程
         Page page = downloader.download(request, this);
         if (page.isDownloadSuccess()){
             onDownloadSuccess(request, page);
@@ -409,12 +415,12 @@ public class Spider implements Runnable, Task {
         }
     }
 
-    private void onDownloadSuccess(Request request, Page page) {
-        if (site.getAcceptStatCode().contains(page.getStatusCode())){
-            pageProcessor.process(page);
+    private void onDownloadSuccess(Request request, Page page) {//成功处理页面，无非提取信息，然后交给下一流程pipeline
+        if (site.getAcceptStatCode().contains(page.getStatusCode())){//根据页面返回的状态码或者其他的信息分析页面是否可提取信息
+            pageProcessor.process(page);//解析页面，无非两个操作：提取信息，获取新的url
             extractAndAddRequests(page, spawnUrl);
             if (!page.getResultItems().isSkip()) {
-                for (Pipeline pipeline : pipelines) {
+                for (Pipeline pipeline : pipelines) {//每个pipeline来处理page提取的信息
                     pipeline.process(page.getResultItems(), this);
                 }
             }
@@ -425,7 +431,7 @@ public class Spider implements Runnable, Task {
         return;
     }
 
-    private void onDownloaderFail(Request request) {
+    private void onDownloaderFail(Request request) {//失败重试
         if (site.getCycleRetryTimes() == 0) {
             sleep(site.getSleepTime());
         } else {
@@ -436,12 +442,12 @@ public class Spider implements Runnable, Task {
 
     private void doCycleRetry(Request request) {
         Object cycleTriedTimesObject = request.getExtra(Request.CYCLE_TRIED_TIMES);
-        if (cycleTriedTimesObject == null) {
-            addRequest(SerializationUtils.clone(request).setPriority(0).putExtra(Request.CYCLE_TRIED_TIMES, 1));
-        } else {
+        if (cycleTriedTimesObject == null) {//第一次重试，放入了一个map来记录重试次数
+            addRequest(SerializationUtils.clone(request).setPriority(0).putExtra(Request.CYCLE_TRIED_TIMES, 1));//深复制Request
+        } else {//第2,3...次重试
             int cycleTriedTimes = (Integer) cycleTriedTimesObject;
             cycleTriedTimes++;
-            if (cycleTriedTimes < site.getCycleRetryTimes()) {
+            if (cycleTriedTimes < site.getCycleRetryTimes()) {//只要抓取了一次就会移出队列，再次抓取只能重新加入
                 addRequest(SerializationUtils.clone(request).setPriority(0).putExtra(Request.CYCLE_TRIED_TIMES, cycleTriedTimes));
             }
         }
@@ -477,7 +483,7 @@ public class Spider implements Runnable, Task {
         }
     }
 
-    public void runAsync() {
+    public void runAsync() {//异步即线程执行
         Thread thread = new Thread(this);
         thread.setDaemon(false);
         thread.start();
@@ -513,6 +519,7 @@ public class Spider implements Runnable, Task {
         for (Request request : UrlUtils.convertToRequests(urls)) {
             addRequest(request);
         }
+
         CollectorPipeline collectorPipeline = getCollectorPipeline();
         pipelines.add(collectorPipeline);
         run();
@@ -549,14 +556,14 @@ public class Spider implements Runnable, Task {
         return this;
     }
 
-    private void waitNewUrl() {
+    private void waitNewUrl() {//等待新的url的加入
         newUrlLock.lock();
         try {
             //double check
-            if (threadPool.getThreadAlive() == 0 && exitWhenComplete) {
+            if (threadPool.getThreadAlive() == 0 && exitWhenComplete) {//结束的话就不会等待了
                 return;
             }
-            newUrlCondition.await(emptySleepTime, TimeUnit.MILLISECONDS);
+            newUrlCondition.await(emptySleepTime, TimeUnit.MILLISECONDS);//没有结束就会等待一段时间
         } catch (InterruptedException e) {
             logger.warn("waitNewUrl - interrupted, error {}", e);
         } finally {
@@ -564,7 +571,7 @@ public class Spider implements Runnable, Task {
         }
     }
 
-    private void signalNewUrl() {
+    private void signalNewUrl() {//有新的url被处理的话可能会有很多的url加入，所以唤醒了所有的线程
         try {
             newUrlLock.lock();
             newUrlCondition.signalAll();
@@ -591,7 +598,7 @@ public class Spider implements Runnable, Task {
      * @param threadNum threadNum
      * @return this
      */
-    public Spider thread(int threadNum) {
+    public Spider thread(int threadNum) {//设置运行线程个数
         checkIfRunning();
         this.threadNum = threadNum;
         if (threadNum <= 0) {
@@ -607,7 +614,7 @@ public class Spider implements Runnable, Task {
      * @param threadNum threadNum
      * @return this
      */
-    public Spider thread(ExecutorService executorService, int threadNum) {
+    public Spider thread(ExecutorService executorService, int threadNum) {//指定线程executorService和同时运行的线程个数，并使用这些来初始化线程池
         checkIfRunning();
         this.threadNum = threadNum;
         if (threadNum <= 0) {
@@ -712,7 +719,7 @@ public class Spider implements Runnable, Task {
     }
 
     @Override
-    public String getUUID() {
+    public String getUUID() {//uuid可以使用抓取的站点的域名，如果没有的话就是生成uuid；之所以使用域名是因为不同的抓取站点是唯一的
         if (uuid != null) {
             return uuid;
         }
