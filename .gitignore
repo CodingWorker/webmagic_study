@@ -1,2 +1,4 @@
 #for .zip
 *.zip
+#for mvn target
+**/target/*
